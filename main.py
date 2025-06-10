@@ -60,7 +60,6 @@ async def get_rates(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Попробуйте позже или проверьте соединение.",
             parse_mode="Markdown"
         )
-        print(f"Error in get_rates: {e}")
 
 """Конвертация валют"""
 async def convert_currency(update: Update, context: ContextTypes.DEFAULT_TYPE):
